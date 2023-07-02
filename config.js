@@ -39,7 +39,7 @@ global.ytname = "YT: Enter Your Channel Name Here"
 global.continent = "Africa" // your continent name 
 global.region = "Togo"
 global.state = "Lomé" // your state name
-global.timezone = "Africa/Lomé" // search on google if you don't know the timezone of your country //
+global.timezone = "Africa/Tripoli" // search on google if you don't know the timezone of your country //
 global.instagramId = "Enter Your Insta ID Here"
 global.email = "Enter Your Email ID Here"
 
