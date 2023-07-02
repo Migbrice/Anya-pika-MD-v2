@@ -1,11 +1,12 @@
 {
-  "name": "Queen Anya MD v2",
-  "version": "2.0.6",
+  "name": "QueenAnya-MD-V2",
+  "version": "2.0.8",
   "description": "A modular whatsApp bot created by node.js",
   "main": "Anyaindex.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node Anyaindex.js"
+    "start": "bash start.sh",
+    "starts": "node Anyaindex.js"
   },
   "keywords": [
     "termux",
@@ -17,26 +18,36 @@
     "bot-md",
     "multi-device"
   ],
+    "homepage": "https://github.com/PikaBotz/Anya-pika-MD-v2#readme",
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PikaBotz/Anya-pika-MD-v2"
+  },
+  "bugs": {
+    "url": "https://github.com/PikaBotz/Anya-pika-MD-v2/issues"
+  },
   "author": "Pika",
   "license": "GPL-3.0",
   "dependencies": {
-    "@adiwajshing/baileys": "^4.0.0",
-    "@adiwajshing/baileys2": "@queenanya/ytdl-core@queenanya",
     "@adiwajshing/keyed-db": "^0.2.4",
-    "@adiwajshing/keyed-db2": "@queenanya/yt-search@queenanya",
     "@bochilteam/scraper": "^2.0.0",
     "@develoka/angka-terbilang-js": "^1.4.2",
+    "@queenanya/baileys": "6.1.2",
+    "@queenanya/ytdlcore": "npm:@queenanya/ytdlcore",
+    "@queenanya/ytsearch": "npm:@queenanya/ytsearch",
     "@shineiichijo/marika": "^2.0.2",
     "@shineiichijo/nhentai-pdf": "^1.0.5",
     "anime-wallpaper": "^1.0.2",
     "awesome-phonenumber": "^2.64.0",
     "axios": "^0.24.0",
-    "caliph-api": "^0.9.3",
+    "caliph-api": "^0.4.0",
     "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.10",
     "child_process": "^1.0.2",
+    "cookie": "^0.5.0",
     "crypto": "^1.0.1",
     "dhn-api": "^1.1.3",
+    "api-dylux": "^1.5.5",
     "emoji-api": "^1.0.2",
     "figlet": "1.5.2",
     "file-type": "^16.5.4",
@@ -53,7 +64,6 @@
     "jimp": "^0.16.2",
     "jsdom": "^16.4.0",
     "lowdb": "^2.1.0",
-    "minecraft-query": "^1.0.13",
     "moment-timezone": "^0.5.34",
     "mongoose": "^6.6.5",
     "ms": "^2.1.3",
@@ -68,11 +78,6 @@
     "perf_hooks": "0.0.1",
     "pino": "^7.11.0",
     "pm2": "^5.3.0",
-    "qrcode": "^1.5.0",
-    "qrcode-reader": "^1.0.4",
-    "qrcode-terminal": "^0.12.0",
-    "queenanya/ytdl-core": "queenanya",
-    "@queenanya/yt-search": "queenanya",
     "remove.bg": "^1.3.0",
     "request": "^2.88.2",
     "scrape-primbon": "^1.1.0",
@@ -82,19 +87,9 @@
     "util": "^0.12.5",
     "xfarr-api": "^1.0.3",
     "yargs": "^17.6.0",
-    "youtube-yts": "@queenanya/yt-search@queenanya",
-    "youtubedl-core": "@queenanya/ytdl-core@queenanya"
+    "yarn": "1.22.19",
+    "youtube-yts": "npm:@queenanya/ytsearch",
+    "youtubedl-core": "npm:@queenanya/ytdlcore"
   },
-  "directories": {
-    "lib": "lib",
-    "src": "src"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PikaBotz/Anya-pika-MD-v2"
-  },
-  "bugs": {
-    "url": "https://github.com/PikaBotz/Anya-pika-MD-v2/issues"
-  },
-  "homepage": "https://github.com/PikaBotz/Anya-pika-MD-v2#readme"
+  "packageManager": "yarn@1.22.19"
 }
